@@ -1,26 +1,15 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <gen-password></gen-password>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
-
+//import GenPassword from './components/GenPassword.vue';
 export default {
-  name: 'App',
-  components: {
-    HelloWorld
-  }
-}
+  //components: { GenPassword },
+
+};
 </script>
 
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
+
 </style>

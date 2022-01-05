@@ -1,4 +1,9 @@
-import { createApp } from 'vue'
-import App from './App.vue'
+import { createApp } from 'vue';
+import App from './App.vue';
+import GenPassword from './components/GenPassword.vue';
 
-createApp(App).mount('#app')
+const app = createApp(App);
+
+app.component('gen-password',GenPassword);
+
+app.mount('#app')
